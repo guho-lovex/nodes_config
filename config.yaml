@@ -1,0 +1,347 @@
+proxies:
+  - name: 🇭🇰 香港
+    server: 120.232.240.46
+    port: 11810
+    type: ssr
+    cipher: chacha20-ietf
+    password: Fhbe0z
+    protocol: auth_aes128_sha1
+    obfs: tls1.2_ticket_auth
+    protocol-param: 24:SpYUtPeJYhRk4FWC
+    obfs-param: 6f41b24.microsoft.com
+
+  - name: 🇭🇰 香港2
+    server: 112.132.212.19
+    port: 50004
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+
+  - name: 🇭🇰 香港3
+    server: 183.232.139.22
+    port: 4027
+    type: trojan
+    password: RmdXQRXg
+    skip-cert-verify: true
+
+  - name: 🇭🇰 香港4
+    server: 59.56.77.178
+    port: 15001
+    type: ss
+    cipher: aes-256-cfb
+    password: hGkQ6915tD
+
+  - name: 🇯🇵 日本R
+    server: 59.56.77.178
+    port: 15084
+    type: ss
+    cipher: aes-256-cfb
+    password: hGkQ6915tD
+
+  - name: 🇯🇵 日本|@ripaojiedian
+    server: 223.113.54.154
+    port: 23621
+    type: trojan
+    password: RmdXQRXg
+    skip-cert-verify: true
+
+  - name: 🇯🇵 日本3
+    server: jp6.mmmmmmmmmm.cfd
+    port: 23234
+    type: vmess
+    uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+    alterId: 0
+    cipher: auto
+    tls: false
+
+  - name: 🇻🇳 越南R
+    server: 59.56.77.178
+    port: 15083
+    type: ss
+    cipher: aes-256-cfb
+    password: hGkQ6915tD
+
+  - name: 🇲🇲 缅甸R
+    server: 59.56.77.178
+    port: 15082
+    type: ss
+    cipher: aes-256-cfb
+    password: hGkQ6915tD
+
+  - name: 🇭🇰 香港5
+    server: 47.238.0.114
+    port: 2096
+    type: trojan
+    password: moist
+    sni: trojan.freenods.sbs
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: trojan.freenods.sbs
+
+  - name: 🇭🇰 香港6
+    type: ss
+    server: 47.243.99.111
+    port: 80
+    cipher: aes-128-gcm
+    password: "a-wym4ovY4Yw"
+    plugin:
+      - "v2ray-plugin"
+    plugin-opts:
+      mode: "websocket"
+      host: "a111.illos.site"
+      path: "/"
+      tls: true
+      mux: true
+
+  - name: 🇭🇰 香港7
+    server: naiu-hk.05vr9nyqg5.download
+    port: 13007
+    type: trojan
+    password: 14e3b30c-4ef9-49b3-a8b8-ea57590152d6
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+
+  - name: 🇰🇷 韩国特殊|@ripaojiedian
+    server: 54.179.87.28
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+
+  - name: 🇺🇲 美国|@ripaojiedian
+    server: 104.19.51.232
+    port: 2086
+    type: vmess
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: ip005.dtku47.xyz
+
+  - name: 🇺🇲 美国2|@ripaojiedian
+    server: cfcdn1.sanfencdn9.com
+    port: 8880
+    type: vmess
+    uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /video/bYdJ7Vc2We
+      headers:
+        Host: us6gzxQRrE4.fzbqfrse.xyz
+
+  - name: 🇺🇲 美国3|@ripaojiedian
+    server: 223.113.54.154
+    port: 1617
+    type: trojan
+    password: GsKYmYOE
+    skip-cert-verify: true
+
+  - {
+      name: 🇺🇲 美国4|@ripaojiedian,
+      server: 183.232.139.22,
+      port: 40081,
+      type: trojan,
+      password: GsKYmYOE,
+      skip-cert-verify: true,
+    }
+
+  - {
+      name: 🇺🇲 美国5|@ripaojiedian,
+      server: 154.197.121.253,
+      port: 443,
+      type: trojan,
+      password: moist,
+      sni: trojan.freenods.sbs,
+      skip-cert-verify: true,
+      network: ws,
+      ws-opts: { path: "/?ed=2560", headers: { Host: trojan.freenods.sbs } },
+    }
+
+  - {
+      name: 🇺🇲 美国6|@ripaojiedian,
+      server: 104.19.38.18,
+      port: 2052,
+      type: vmess,
+      uuid: d6b6d982-d52f-465a-b988-85670b23f64a,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      network: ws,
+      ws-opts:
+        { path: github.com/Alvin9999, headers: { Host: cdn2.freegradely.xyz } },
+    }
+
+  - name: 🇫🇷 FR-Hysteria | 1-0
+    type: hysteria
+    server: 62.210.243.131
+    port: 18702
+    ports: 18702
+    auth-str: dongtaiwang.com
+    up: 80
+    down: 100
+    fast-open: true
+    protocol: udp
+    sni: bing.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+
+  - {
+      name: 🇫🇷 France_hysteria_0,
+      server: 62.210.243.131,
+      port: 18702,
+      client-fingerprint: chrome,
+      type: hysteria,
+      auth_str: dongtaiwang.com,
+      auth-str: dongtaiwang.com,
+      up: 11,
+      down: 55,
+      fast-open: false,
+      protocol: udp,
+      sni: bing.com,
+      skip-cert-verify: true,
+      alpn: [h3],
+    }
+
+  - {
+      name: 🇫🇷 France_hysteria_1,
+      server: 62.210.243.131,
+      port: 18702,
+      client-fingerprint: chrome,
+      type: hysteria,
+      auth_str: dongtaiwang.com,
+      auth-str: dongtaiwang.com,
+      up: 11,
+      down: 55,
+      fast-open: false,
+      protocol: udp,
+      sni: bing.com,
+      skip-cert-verify: true,
+      alpn: [h3],
+    }
+  - {
+      name: 🇫🇷 France_hysteria_2,
+      server: 62.210.243.131,
+      port: 18702,
+      client-fingerprint: chrome,
+      type: hysteria,
+      auth_str: dongtaiwang.com,
+      auth-str: dongtaiwang.com,
+      up: 11,
+      down: 55,
+      fast-open: false,
+      protocol: udp,
+      sni: bing.com,
+      skip-cert-verify: true,
+      alpn: [h3],
+    }
+  - {
+      name: 🇫🇷 France_hysteria_3,
+      server: 62.210.243.131,
+      port: 18702,
+      client-fingerprint: chrome,
+      type: hysteria,
+      auth_str: dongtaiwang.com,
+      auth-str: dongtaiwang.com,
+      up: 11,
+      down: 55,
+      fast-open: false,
+      protocol: udp,
+      sni: bing.com,
+      skip-cert-verify: true,
+      alpn: [h3],
+    }
+
+  - {
+      name: Unknown-vmess | 1-0,
+      server: yh4.dtku41.xyz,
+      port: 2082,
+      type: vmess,
+      uuid: 86e926b9-d67a-4c8f-a35e-024631838a45,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: false,
+      network: ws,
+      ws-opts:
+        { path: github.com/Alvin9999, headers: { Host: ip4-2.freessr2.xyz } },
+    }
+  - {
+      name: 🇺🇲 US-vmess | 2-0,
+      server: yh1.dtku41.xyz,
+      port: 2082,
+      type: vmess,
+      uuid: 86e926b9-d67a-4c8f-a35e-024631838a45,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: false,
+      network: ws,
+      ws-opts:
+        { path: github.com/Alvin9999, headers: { Host: ip3-2.freessr2.xyz } },
+    }
+  - {
+      name: 🇺🇲 US-vmess | 3-0,
+      server: yh7.dtku41.xyz,
+      port: 2082,
+      type: vmess,
+      uuid: 86e926b9-d67a-4c8f-a35e-024631838a45,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: false,
+      network: ws,
+      ws-opts:
+        { path: github.com/Alvin9999, headers: { Host: ip2-2.freessr2.xyz } },
+    }
+
+  - {
+      name: 🇹🇼 台湾,
+      server: www.dtku44.xyz,
+      port: 22335,
+      type: ss,
+      cipher: 2022-blake3-aes-256-gcm,
+      password: oats+7vdaSOb4NsxWwCBQll4qTwPu/dhpegiIGnqd9c=,
+    }
+
+  - {
+      name: 🇨🇳 广东,
+      server: 183.240.235.164,
+      port: 32998,
+      type: vmess,
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24,
+      alterId: 64,
+      cipher: auto,
+      tls: false,
+    }
+
+  - {
+      name: 🇨🇳 广东2,
+      server: 183.240.235.166,
+      port: 41490,
+      type: vmess,
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24,
+      alterId: 64,
+      cipher: auto,
+      tls: false,
+    }
+
+  - {
+      name: 🇸🇬 新加坡特殊,
+      server: 13.114.74.148,
+      port: 443,
+      type: ss,
+      cipher: aes-256-cfb,
+      password: amazonskr05,
+    }
